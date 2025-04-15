@@ -131,7 +131,7 @@ const Contact = () => {
                   <div className="col-md-5">
                     <div className="contact-info">
                       <div className="contact-item">
-                        <div className="contact-icon">
+                        <div className="contact-icon mt-4">
                           <i className="fas fa-envelope m-3"></i>
                         </div>
                         <div className="contact-details">
@@ -141,7 +141,7 @@ const Contact = () => {
                       </div>
                       
                       <div className="contact-item">
-                        <div className="contact-icon">
+                        <div className="contact-icon mt-4">
                           <i className="fas fa-phone m-3"></i>
                         </div>
                         <div className="contact-details">
@@ -151,7 +151,7 @@ const Contact = () => {
                       </div>
                       
                       <div className="contact-item">
-                        <div className="contact-icon ">
+                        <div className="contact-icon mt-4">
                           <i className="fas fa-map-marker-alt m-3"></i>
                         </div>
                         <div className="contact-details">
@@ -161,7 +161,7 @@ const Contact = () => {
                       </div>
                       
                       <div className="contact-item">
-                        <div className="contact-icon">
+                        <div className="contact-icon mt-4">
                           <i className="fab fa-linkedin m-3"></i>
                         </div>
                         <div className="contact-details">
@@ -174,7 +174,7 @@ const Contact = () => {
                       </div>
 
                       <div className="contact-item">
-                        <div className="contact-icon">
+                        <div className="contact-icon mt-4">
                         <i className="fab fa-github m-3"></i>
                         </div>
                         <div className="contact-details">
