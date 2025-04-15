@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'Amplitude-Book-Regular';
+    src: url('../fonts/Amplitude-Book Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Clarraph-Heavy';
+    src: url('../fonts/Clarraph-Heavy-Personal-Use.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'PlaywriteDEGrund-Regular';
+    src: url('../fonts/PlaywriteDEGrund-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .div-background-image {
+    background-image: url('../images/img2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0 10%;
+  }
+  
+  .content-container {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  .fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .name-styling {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 30px 40px;
+    text-align: center;
+    background-color: rgba(10, 10, 30, 0.7);
+    border-radius: 15px;
+    display: inline-block;
+    max-width: 100%;
+    width: auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* .name-styling:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  }
+   */
+  .name-text {
+    font-size: 1.8rem;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  
+  .highlight {
+    color: #64ffda;
+    font-family: 'Clarraph-Heavy', sans-serif;
+  }
+  
+  .title-container {
+    margin-top: 15px;
+    position: relative;
+  }
+  
+  .title-wrapper {
+    padding: 5px 0;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .title-wrapper::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 25%;
+    width: 50%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgba(255, 87, 51, 0.8), transparent);
+  }
+  
+  .title-text {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 500;
+    font-family: 'Amplitude-Book-Regular';
+    color: #f8f8f8;
+  }
+  
+  .typing-effect {
+    display: inline-block;
+    overflow: hidden;
+    /* border-right: 3px solid #ff5733; */
+    white-space: nowrap;
+    animation: typing 3.5s steps(40, end), blink 0.75s step-end infinite;
+    padding-right: 5px;
+  }
+  
+  .social-icons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-icon {
+    font-size: 1.5rem;
+    color: #ffffff;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    opacity: 1;
+    color: #64ffda;
+    transform: scale(1.2);
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink {
+    50% { border-color: transparent }
+  }
+  
+  /* Responsive Styles */
+  @media (min-width: 769px) {
+    .div-background-image {
+      margin-top: 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .div-background-image {
+      min-height: 100vh;
+      padding: 0 5%;
+    }
+    
+    .name-styling {
+      padding: 20px;
+    }
+    
+    .name-text {
+      font-size: 1.5rem;
+    }
+    
+    .title-text {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .div-background-image {
+      padding: 0 3%;
+    }
+    
+    .name-styling {
+      padding: 15px;
+    }
+    
+    .name-text {
+      font-size: 1.2rem;
+    }
+    
+    .title-text {
+      font-size: 1rem;
+    }
+    
+    .social-icons {
+      gap: 15px;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .name-styling {
+      padding: 10px;
+    }
+    
+    .name-text {
+      font-size: 1rem;
+    }
+    
+    .title-text {
+      font-size: 0.85rem;
+    }
+  }

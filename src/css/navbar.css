@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'Amplitude-Book-Regular';
+    src: url('../fonts/Amplitude-Book Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Clarraph-Heavy';
+    src: url('../fonts/Clarraph-Heavy-Personal-Use.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'PlaywriteDEGrund-Regular';
+    src: url('../fonts/PlaywriteDEGrund-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .navbar {
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .navbar.scrolled {
+    background: rgba(10, 10, 30, 0.95);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+  }
+  
+  .navbar-brand {
+    padding: 0;
+    margin-right: 20px;
+  }
+  
+  .logo-text {
+    font-family: 'Clarraph-Heavy', sans-serif;
+    font-size: 1.8rem;
+    background: linear-gradient(135deg, #64ffda, #6366f1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .navbar-nav {
+    gap: 5px;
+  }
+  
+  .nav-item {
+    position: relative;
+    margin: 0 10px;
+  }
+  
+  .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Amplitude-Book-Regular', sans-serif;
+    padding: 10px 5px;
+    transition: all 0.3s ease;
+    position: relative;
+    letter-spacing: 0.5px;
+  }
+  
+  .nav-link:hover {
+    color: #64ffda;
+    transform: translateY(-2px);
+  }
+  
+  .nav-link.active {
+    color: #64ffda !important;
+  }
+  
+  .nav-indicator {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #64ffda, #6366f1);
+    transition: width 0.3s ease;
+  }
+  
+  .nav-link:hover .nav-indicator,
+  .nav-link.active .nav-indicator {
+    width: 100%;
+  }
+  
+  /* Custom hamburger menu */
+  .hamburger-icon {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .hamburger-icon .line {
+    display: block;
+    background: #fff;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .hamburger-icon .line:nth-child(1) {
+    top: 0;
+  }
+  
+  .hamburger-icon .line:nth-child(2) {
+    top: 9px;
+  }
+  
+  .hamburger-icon .line:nth-child(3) {
+    top: 18px;
+  }
+  
+  .navbar-toggler:not(.collapsed) .hamburger-icon .line:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+  }
+  
+  .navbar-toggler:not(.collapsed) .hamburger-icon .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .navbar-toggler:not(.collapsed) .hamburger-icon .line:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+  }
+  
+  .navbar-toggler {
+    border: none;
+    padding: 0;
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  
+  /* Mobile menu animation */
+  @media (max-width: 991px) {
+    .navbar-collapse {
+      background: rgba(10, 10, 30, 0.95);
+      border-radius: 8px;
+      margin-top: 10px;
+      padding: 10px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+    
+    .navbar-nav {
+      padding: 10px 0;
+    }
+    
+    .nav-item {
+      margin: 5px 0;
+    }
+    
+    .nav-link {
+      padding: 10px 15px;
+      display: block;
+    }
+    
+    .nav-indicator {
+      bottom: 5px;
+      left: 15px;
+      width: 0;
+    }
+    
+    .nav-link.active .nav-indicator {
+      width: calc(100% - 30px);
+    }
+  }
+  
+  /* Custom animation for navbar collapse */
+  .navbar-collapse {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .navbar-collapse.collapsing {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  
+  .navbar-collapse.show {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  /* Support for dark backgrounds */
+  @media (prefers-color-scheme: dark) {
+    .navbar.scrolled {
+      background: rgba(10, 10, 30, 0.95);
+    }
+  }
