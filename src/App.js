@@ -38,7 +38,7 @@ function App() {
     }
   }, []);
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Portfolio">
     <Navbar />
     <Routes>
       <Route path="/" element={<Home />} />
