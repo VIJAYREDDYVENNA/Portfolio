@@ -179,7 +179,7 @@ const Contact = () => {
                         </div>
                         <div className="contact-details">
                           <h3 className="contact-item-title ">GITHUB</h3>
-                          <a href="https://github.com/" 
+                          <a href="https://github.com/VIJAYREDDYVENNA" 
                            target="_blank" 
                            rel="noopener noreferrer" 
                            className="contact-item-value text-decoration-none">Vijaya Bhaskar Reddy Venna
