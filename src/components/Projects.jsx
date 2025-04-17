@@ -32,7 +32,7 @@ const Projects = () => {
                 <div className="project-header">
                   <h3 className="project-main-title">Centralized Control Monitoring System (CCMS)</h3>
                   <div className="project-links">
-                    <a href="https://github.com/VIJAYREDDYVENNA/CCMS" className="project-link" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/VIJAYREDDYVENNA/CCMS_1PH_3PH" className="project-link" target="_blank" rel="noopener noreferrer">
                       <i className="fab fa-github"></i>
                     </a>
                   </div>
