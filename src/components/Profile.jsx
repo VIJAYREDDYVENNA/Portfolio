@@ -36,7 +36,7 @@ const Profile = () => {
                       <a href="https://github.com/VIJAYREDDYVENNA" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-github"></i>
                       </a>
-                      <a href="https://www.linkedin.com/in/vijaya-bhaskar-reddy-venna-41025a234/" target="_blank" rel="noopener noreferrer">
+                      <a href="https://www.linkedin.com/in/vbreddyvenna/" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-linkedin"></i>
                       </a>
                       <a href="mailto:vbreddyvenna@gmail.com">

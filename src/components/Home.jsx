@@ -32,7 +32,7 @@ export default function Home() {
               <a href="https://github.com/VIJAYREDDYVENNA" className="social-icon" title="GitHub"  target="_blank"  rel="noopener noreferrer">
                   <i class="bi bi-github"></i>
               </a>
-              <a href="https://www.linkedin.com/in/vijaya-bhaskar-reddy-venna-41025a234/" className="social-icon" title="LinkedIn" target="_blank"  rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/vbreddyvenna/" className="social-icon" title="LinkedIn" target="_blank"  rel="noopener noreferrer">
                   <i class="bi bi-linkedin"></i>
               </a>
               <a href="mailto:vbreddyvenna@gmail.com" className="social-icon" title="Email" target="_blank"  rel="noopener noreferrer">

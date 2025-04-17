@@ -166,7 +166,7 @@ const Contact = () => {
                         </div>
                         <div className="contact-details">
                           <h3 className="contact-item-title ">LINKEDIN</h3>
-                          <a href="https://www.linkedin.com/in/vijaya-bhaskar-reddy-venna-41025a234/" 
+                          <a href="https://www.linkedin.com/in/vbreddyvenna/" 
                              target="_blank" 
                              rel="noopener noreferrer" 
                              className="contact-item-value text-decoration-none">Vijaya Bhaskar Reddy Venna</a>
