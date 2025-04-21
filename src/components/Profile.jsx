@@ -73,7 +73,7 @@ const Profile = () => {
                 </div>
                 
                 <div className="download-resume">
-                    <a href="/VIJAYA BHASKAR REDDY VENNA.pdf" download="VIJAYA BHASKAR REDDY VENNA.pdf" className="btn btn-download">
+                    <a href="/vijaya_bhaskar_reddy_venna.pdf" download="vijaya_bhaskar_reddy_venna.pdf" className="btn btn-download">
                     <i className="fas fa-download"></i> Download Resume
                     </a>
                 </div>

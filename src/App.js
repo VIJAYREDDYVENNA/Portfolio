@@ -7,9 +7,9 @@ import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Home from './components/Home';
-import NotFound from './components/NotFound';
-import { BrowserRouter, Routes, Route,Navigate  } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { useEffect } from 'react';
+
 function App() {
   useEffect(() => {
     const speakAfterVoicesLoaded = () => {
@@ -22,35 +22,30 @@ function App() {
       const voices = window.speechSynthesis.getVoices();
       msg.voice = voices.find(voice => voice.lang === 'en-US') || voices[0];
 
-      // ✅ Now speak
-      window.speechSynthesis.cancel(); // clear previous
+      window.speechSynthesis.cancel();
       window.speechSynthesis.speak(msg);
     };
 
-    // 🧠 Load voices properly
     if (window.speechSynthesis.getVoices().length === 0) {
       window.speechSynthesis.onvoiceschanged = () => {
         speakAfterVoicesLoaded();
       };
     } else {
-      // Voices are ready
       speakAfterVoicesLoaded();
     }
   }, []);
+
   return (
-    <BrowserRouter basename="/Portfolio">
-    <Navbar />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/profile" element={<Profile />} />
-      <Route path="/experience" element={<Experience />} />
-      <Route path="/projects" element={<Projects />} />
-      <Route path="/contact" element={<Contact />} />
-      {/* The following two routes handle 404 cases */}
-      <Route path="/404" element={<NotFound />} />
-      <Route path="*" element={<Navigate to="/404" />} />
-    </Routes>
-  </BrowserRouter>
+    <HashRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </HashRouter>
   );
 }
 
