@@ -12,7 +12,7 @@ const Profile = () => {
         bar.style.width = width;
       }, 300);
     });
-    
+
     // Animate content sections
     const sections = document.querySelectorAll('.fade-in-section');
     sections.forEach((section, index) => {
@@ -26,7 +26,7 @@ const Profile = () => {
     <div className="profile-container">
       <div className="container py-5">
         <div className="row">
-          <div className="col-lg-4" style={{maxHeight:"1900px"}}>
+          <div className="col-lg-4" style={{ maxHeight: "1900px" }}>
             <div className="card profile-card fade-in-section">
               <div className="card-body">
                 <div className="profile-image-container">
@@ -34,21 +34,21 @@ const Profile = () => {
                   <div className="profile-image-overlay">
                     <div className="social-links">
                       <a href="https://github.com/VIJAYREDDYVENNA" target="_blank" rel="noopener noreferrer">
-                            <i className="bi bi-github"></i>
+                        <i className="bi bi-github"></i>
                       </a>
                       <a href="https://www.linkedin.com/in/vbreddyvenna/" target="_blank" rel="noopener noreferrer">
-                            <i className="bi bi-linkedin"></i>
+                        <i className="bi bi-linkedin"></i>
                       </a>
                       <a href="mailto:vbreddyvenna@gmail.com">
-                            <i className="bi bi-envelope-check"></i>
+                        <i className="bi bi-envelope-check"></i>
                       </a>
                     </div>
                   </div>
                 </div>
-                
+
                 <h1 className="profile-name">VIJAYA BHASKAR REDDY VENNA</h1>
                 <h3 className="profile-title">Software Engineer | Fullstack Developer</h3>
-                
+
                 <div className="contact-details">
                   <div className="contact-item">
                     <i className="fas fa-envelope"></i>
@@ -71,44 +71,47 @@ const Profile = () => {
                     <span>Hyderabad, Telangana, India</span>
                   </div>
                 </div>
-                
-                <div className="download-resume">
-                    <a href="/vijaya_bhaskar_reddy_venna.pdf" download="vijaya_bhaskar_reddy_venna.pdf" className="btn btn-download">
-                    <i className="fas fa-download"></i> Download Resume
-                    </a>
-                </div>
+
+                <a
+                  href="/Portfolio/vijaya_bhaskar_reddy_venna.pdf"
+                  download="vijaya_bhaskar_reddy_venna.pdf"
+                  className="btn btn-download"
+                >
+                  <i className="fas fa-download"></i> Download Resume
+                </a>
+
               </div>
             </div>
           </div>
-          
+
           <div className="col-lg-8 cus-margin">
             <div className="card about-card fade-in-section">
               <div className="card-body">
                 <h2 className="section-title">About Me</h2>
                 <div className="about-content">
                   <p>
-                    Hello! I'm Vijaya Bhaskar Reddy Venna, a passionate Software Engineer with expertise in Fullstack Development. 
-                    Currently working at IScientific Techsolutions Labs Pvt. Ltd., I specialize in building modern web applications 
+                    Hello! I'm Vijaya Bhaskar Reddy Venna, a passionate Software Engineer with expertise in Fullstack Development.
+                    Currently working at IScientific Techsolutions Labs Pvt. Ltd., I specialize in building modern web applications
                     and monitoring systems.
                   </p>
                   <p>
-                    With experience in designing and implementing complex web applications like Centralized Control Monitoring 
-                    Systems (CCMS) and Building Energy Monitoring Systems (BEMS), I've developed strong skills in both frontend 
+                    With experience in designing and implementing complex web applications like Centralized Control Monitoring
+                    Systems (CCMS) and Building Energy Monitoring Systems (BEMS), I've developed strong skills in both frontend
                     and backend technologies including HTML, CSS, Bootstrap, JavaScript, ReactJS, Java, and MySQL.
                   </p>
                   <p>
-                    I'm detail-oriented, adaptable, and always eager to take on new challenges that push me to grow professionally. 
-                    My background in Electrical and Electronics Engineering combined with my passion for software development 
+                    I'm detail-oriented, adaptable, and always eager to take on new challenges that push me to grow professionally.
+                    My background in Electrical and Electronics Engineering combined with my passion for software development
                     gives me a unique perspective in creating technical solutions.
                   </p>
                 </div>
               </div>
             </div>
-            
+
             <div className="card skills-card fade-in-section">
               <div className="card-body">
                 <h2 className="section-title">Technical Skills</h2>
-                
+
                 <div className="skills-container">
                   <div className="skill-item">
                     <div className="skill-header">
@@ -119,7 +122,7 @@ const Profile = () => {
                       <div className="skill-progress" data-width="95%"></div>
                     </div>
                   </div>
-                  
+
                   <div className="skill-item">
                     <div className="skill-header">
                       <span className="skill-name">JavaScript/ReactJS</span>
@@ -129,7 +132,7 @@ const Profile = () => {
                       <div className="skill-progress" data-width="85%"></div>
                     </div>
                   </div>
-                  
+
                   <div className="skill-item">
                     <div className="skill-header">
                       <span className="skill-name">Core Java/Spring Boot</span>
@@ -139,7 +142,7 @@ const Profile = () => {
                       <div className="skill-progress" data-width="80%"></div>
                     </div>
                   </div>
-                  
+
                   <div className="skill-item">
                     <div className="skill-header">
                       <span className="skill-name">MySQL</span>
@@ -149,7 +152,7 @@ const Profile = () => {
                       <div className="skill-progress" data-width="85%"></div>
                     </div>
                   </div>
-                  
+
                   <div className="skill-item">
                     <div className="skill-header">
                       <span className="skill-name">PHP/REST APIs</span>
@@ -162,11 +165,11 @@ const Profile = () => {
                 </div>
               </div>
             </div>
-            
+
             <div className="card education-card fade-in-section">
               <div className="card-body">
                 <h2 className="section-title">Education</h2>
-                
+
                 <div className="timeline">
                   <div className="timeline-item">
                     <div className="timeline-dot"></div>
@@ -175,12 +178,12 @@ const Profile = () => {
                       <h4 className="timeline-subtitle">Audisankara College of Engineering and Technology, Gudur</h4>
                       <p className="timeline-date">2019 - 2023</p>
                       <p className="timeline-description">
-                        Graduated with 7.86 CGPA. Focused on core electrical engineering subjects while developing 
+                        Graduated with 7.86 CGPA. Focused on core electrical engineering subjects while developing
                         interest in software development and technologies.
                       </p>
                     </div>
                   </div>
-                  
+
                   <div className="timeline-item">
                     <div className="timeline-dot"></div>
                     <div className="timeline-content">
@@ -192,7 +195,7 @@ const Profile = () => {
                       </p>
                     </div>
                   </div>
-                  
+
                   <div className="timeline-item">
                     <div className="timeline-dot"></div>
                     <div className="timeline-content">
@@ -207,11 +210,11 @@ const Profile = () => {
                 </div>
               </div>
             </div>
-            
+
             <div className="card certifications-card fade-in-section">
               <div className="card-body">
                 <h2 className="section-title">Certifications</h2>
-                
+
                 <div className="certifications-container">
                   <div className="certification-item">
                     <div className="certification-icon">
@@ -223,7 +226,7 @@ const Profile = () => {
                       <p className="certification-date">Training Certificate</p>
                     </div>
                   </div>
-                  
+
                   <div className="certification-item">
                     <div className="certification-icon">
                       <i className="fas fa-certificate"></i>
