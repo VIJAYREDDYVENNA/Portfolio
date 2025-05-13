@@ -135,7 +135,7 @@ const Experience = () => {
                         </li>
                         <li>
                           <i className="fas fa-check-circle highlight-icon"></i>
-                          <span>Successfully deployed at <span> <a href="http://test.istlabsonline.com/" target="_blank"  rel="noopener noreferrer">http://test.istlabsonline.com/</a></span></span>
+                          <span>Successfully deployed at <span> <a href="https://sesolaenergy.com/" target="_blank"  rel="noopener noreferrer">https://sesolaenergy.com</a></span></span>
                         </li>
                       </ul>
                     </div>

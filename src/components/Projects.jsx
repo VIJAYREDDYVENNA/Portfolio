@@ -228,7 +228,7 @@ const Projects = () => {
                 <div className="project-header">
                   <h3 className="project-main-title">Interactive Website for Sesola Energy Company</h3>
                   <div className="project-links">
-                    <a href="http://test.istlabsonline.com/" className="project-link" target="_blank" rel="noopener noreferrer">
+                    <a href="https://sesolaenergy.com/" className="project-link" target="_blank" rel="noopener noreferrer">
                       <i className="fas fa-external-link-alt"></i>
                     </a>
                   </div>
