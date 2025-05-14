@@ -31,11 +31,11 @@ const Projects = () => {
               <div className="card-body">
                 <div className="project-header">
                   <h3 className="project-main-title">Centralized Control Monitoring System (CCMS)</h3>
-                  <div className="project-links">
+                  {/* <div className="project-links">
                     <a href="https://github.com/VIJAYREDDYVENNA/CCMS_1PH_3PH" className="project-link" target="_blank" rel="noopener noreferrer">
                       <i className="fab fa-github"></i>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="project-tech-stack">
                   <span className="tech-badge">HTML</span>
@@ -96,11 +96,11 @@ const Projects = () => {
               <div className="card-body">
                 <div className="project-header">
                   <h3 className="project-main-title">Building Energy Monitoring System (BEMS)</h3>
-                  <div className="project-links">
+                  {/* <div className="project-links">
                     <a href="https://github.com/VIJAYREDDYVENNA/BEMS" className="project-link" target="_blank" rel="noopener noreferrer">
                       <i className="fab fa-github"></i>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="project-tech-stack">
                   <span className="tech-badge">HTML</span>
@@ -161,11 +161,11 @@ const Projects = () => {
               <div className="card-body">
                 <div className="project-header">
                   <h3 className="project-main-title">Kazipet Railway Station Water Management System</h3>
-                  <div className="project-links">
+                  {/* <div className="project-links">
                     <a href="https://github.com/VIJAYREDDYVENNA/TanksAutomation-Kazipet" className="project-link" target="_blank" rel="noopener noreferrer">
                       <i className="fab fa-github"></i>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="project-tech-stack">
                   <span className="tech-badge">HTML</span>
