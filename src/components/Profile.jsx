@@ -90,19 +90,23 @@ const Profile = () => {
                 <h2 className="section-title">About Me</h2>
                 <div className="about-content">
                   <p>
-                    Hello! I'm Vijaya Bhaskar Reddy Venna, a passionate Software Engineer with expertise in Fullstack Development.
-                    Currently working at IScientific Techsolutions Labs Pvt. Ltd., I specialize in building modern web applications
-                    and monitoring systems.
+                    Hello! I'm Vijaya Bhaskar Reddy Venna, a dedicated Software Engineer specializing in Full Stack Web Development. 
+                    I currently work at IScientific Techsolutions Labs Pvt. Ltd., where I build robust and responsive web applications 
+                    using modern technologies.
                   </p>
                   <p>
-                    With experience in designing and implementing complex web applications like Centralized Control Monitoring
-                    Systems (CCMS) and Building Energy Monitoring Systems (BEMS), I've developed strong skills in both frontend
-                    and backend technologies including HTML, CSS, Bootstrap, JavaScript, ReactJS, Java, and MySQL.
+                   I have hands-on experience in developing full-stack applications using Java, PHP, JavaScript, React.js, HTML, CSS, 
+                   Bootstrap, and MySQL. My expertise spans both frontend and backend development, with strong skills in frameworks 
+                   like Spring Boot, and working knowledge of REST APIs, JDBC, Hibernate, and MVC architecture.
                   </p>
                   <p>
-                    I'm detail-oriented, adaptable, and always eager to take on new challenges that push me to grow professionally.
-                    My background in Electrical and Electronics Engineering combined with my passion for software development
-                    gives me a unique perspective in creating technical solutions.
+                    I've successfully contributed to multiple real-time control and monitoring systems, including the Live Motor Control 
+                    System for Secunderabad Railway Station, the Sesola Energy website, and a Centralized Control Monitoring System (CCMS). 
+                    My work also includes integrating MQTT protocol for real-time data communication and using tools like Git, GitHub, Eclipse, 
+                    and VS Code for version control and development.
+                  </p>
+                  <p>
+                    I'm passionate about writing clean, maintainable code and continuously expanding my skillset through challenging projects and real-world implementations.
                   </p>
                 </div>
               </div>
@@ -216,16 +220,16 @@ const Profile = () => {
                 <h2 className="section-title">Certifications</h2>
 
                 <div className="certifications-container">
-                  <div className="certification-item">
-                    <div className="certification-icon">
-                      <i className="fas fa-certificate"></i>
-                    </div>
-                    <div className="certification-details">
-                      <h3 className="certification-title">Java, HTML, CSS, Bootstrap, JavaScript, MySQL, ReactJs</h3>
-                      <p className="certification-issuer">V CUBE Software Solutions</p>
-                      <p className="certification-date">Training Certificate</p>
-                    </div>
-                  </div>
+                    {/* <div className="certification-item">
+                      <div className="certification-icon">
+                        <i className="fas fa-certificate"></i>
+                      </div>
+                      <div className="certification-details">
+                        <h3 className="certification-title">Java, HTML, CSS, Bootstrap, JavaScript, MySQL, ReactJs</h3>
+                        <p className="certification-issuer">V CUBE Software Solutions</p>
+                        <p className="certification-date">Training Certificate</p>
+                      </div>
+                    </div> */}
 
                   <div className="certification-item">
                     <div className="certification-icon">
