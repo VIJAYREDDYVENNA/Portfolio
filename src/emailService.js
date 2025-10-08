@@ -7,14 +7,14 @@ emailjs.init("YOUR_USER_ID");
 export const sendEmail = async (formData) => {
   try {
     const response = await emailjs.send(
-      'YOUR_SERVICE_ID',  // Create a service in EmailJS dashboard
-      'YOUR_TEMPLATE_ID', // Create a template in EmailJS dashboard
+      'YOUR_SERVICE_ID',  
+      'YOUR_TEMPLATE_ID',
       {
         from_name: formData.name,
         reply_to: formData.email,
         subject: formData.subject,
         message: formData.message,
-        to_email: 'vbreddyvenna@gmail.com', // This will be used in your template
+        to_email: 'vbreddyvenna09@gmail.com', 
       }
     );
     

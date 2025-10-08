@@ -39,7 +39,7 @@ const Profile = () => {
                       <a href="https://www.linkedin.com/in/vbreddyvenna/" target="_blank" rel="noopener noreferrer">
                         <i className="bi bi-linkedin"></i>
                       </a>
-                      <a href="mailto:vbreddyvenna@gmail.com">
+                      <a href="mailto:vbreddyvenna09@gmail.com">
                         <i className="bi bi-envelope-check"></i>
                       </a>
                     </div>
@@ -52,7 +52,7 @@ const Profile = () => {
                 <div className="contact-details">
                   <div className="contact-item">
                     <i className="fas fa-envelope"></i>
-                    <span>vbreddyvenna@gmail.com</span>
+                    <span>vbreddyvenna09@gmail.com</span>
                   </div>
                   <div className="contact-item">
                     <i className="fas fa-phone"></i>
@@ -90,19 +90,19 @@ const Profile = () => {
                 <h2 className="section-title">About Me</h2>
                 <div className="about-content">
                   <p>
-                    Hello! I'm Vijaya Bhaskar Reddy Venna, a dedicated Software Engineer specializing in Full Stack Web Development. 
-                    I currently work at IScientific Techsolutions Labs Pvt. Ltd., where I build robust and responsive web applications 
+                    Hello! I'm Vijaya Bhaskar Reddy Venna, a dedicated Software Engineer specializing in Full Stack Web Development.
+                    I currently work at IScientific Techsolutions Labs Pvt. Ltd., where I build robust and responsive web applications
                     using modern technologies.
                   </p>
                   <p>
-                   I have hands-on experience in developing full-stack applications using Java, PHP, JavaScript, React.js, HTML, CSS, 
-                   Bootstrap, and MySQL. My expertise spans both frontend and backend development, with strong skills in frameworks 
-                   like Spring Boot, and working knowledge of REST APIs, JDBC, Hibernate, and MVC architecture.
+                    I have hands-on experience in developing full-stack applications using Java, PHP, JavaScript, React.js, HTML, CSS,
+                    Bootstrap, and MySQL. My expertise spans both frontend and backend development, with strong skills in frameworks
+                    like Spring Boot, and working knowledge of REST APIs, JDBC, Hibernate, and MVC architecture.
                   </p>
                   <p>
-                    I've successfully contributed to multiple real-time control and monitoring systems, including the Live Motor Control 
-                    System for Secunderabad Railway Station, the Sesola Energy website, and a Centralized Control Monitoring System (CCMS). 
-                    My work also includes integrating MQTT protocol for real-time data communication and using tools like Git, GitHub, Eclipse, 
+                    I've successfully contributed to multiple real-time control and monitoring systems, including the Live Motor Control
+                    System for Secunderabad Railway Station, the Sesola Energy website, and a Centralized Control Monitoring System (CCMS).
+                    My work also includes integrating MQTT protocol for real-time data communication and using tools like Git, GitHub, Eclipse,
                     and VS Code for version control and development.
                   </p>
                   <p>
@@ -117,54 +117,58 @@ const Profile = () => {
                 <h2 className="section-title">Technical Skills</h2>
 
                 <div className="skills-container">
+
+                  <div className="skill-item">
+                    <div className="skill-header">
+                      <span className="skill-name">Core Java/Spring Boot</span>
+                      {/* <span className="skill-percentage">80%</span> */}
+                    </div>
+                    {/* <div className="skill-bar">
+                      <div className="skill-progress" data-width="80%"></div>
+                    </div> */}
+                  </div>
+                  
+
                   <div className="skill-item">
                     <div className="skill-header">
                       <span className="skill-name">HTML5/CSS/Bootstrap</span>
-                      <span className="skill-percentage">95%</span>
+                      {/* <span className="skill-percentage">95%</span> */}
                     </div>
-                    <div className="skill-bar">
+                    {/* <div className="skill-bar">
                       <div className="skill-progress" data-width="95%"></div>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="skill-item">
                     <div className="skill-header">
                       <span className="skill-name">JavaScript/ReactJS</span>
-                      <span className="skill-percentage">85%</span>
+                      {/* <span className="skill-percentage">85%</span> */}
                     </div>
-                    <div className="skill-bar">
+                    {/* <div className="skill-bar">
                       <div className="skill-progress" data-width="85%"></div>
-                    </div>
+                    </div> */}
                   </div>
+
+
 
                   <div className="skill-item">
                     <div className="skill-header">
-                      <span className="skill-name">Core Java/Spring Boot</span>
-                      <span className="skill-percentage">80%</span>
+                      <span className="skill-name">MySQL/MongoDB</span>
+                      {/* <span className="skill-percentage">85%</span> */}
                     </div>
-                    <div className="skill-bar">
-                      <div className="skill-progress" data-width="80%"></div>
-                    </div>
-                  </div>
-
-                  <div className="skill-item">
-                    <div className="skill-header">
-                      <span className="skill-name">MySQL</span>
-                      <span className="skill-percentage">85%</span>
-                    </div>
-                    <div className="skill-bar">
+                    {/* <div className="skill-bar">
                       <div className="skill-progress" data-width="85%"></div>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="skill-item">
                     <div className="skill-header">
                       <span className="skill-name">PHP/REST APIs</span>
-                      <span className="skill-percentage">75%</span>
+                      {/* <span className="skill-percentage">75%</span> */}
                     </div>
-                    <div className="skill-bar">
+                    {/* <div className="skill-bar">
                       <div className="skill-progress" data-width="75%"></div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -220,7 +224,7 @@ const Profile = () => {
                 <h2 className="section-title">Certifications</h2>
 
                 <div className="certifications-container">
-                    {/* <div className="certification-item">
+                  {/* <div className="certification-item">
                       <div className="certification-icon">
                         <i className="fas fa-certificate"></i>
                       </div>

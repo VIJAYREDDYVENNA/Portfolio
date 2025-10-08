@@ -30,6 +30,76 @@ const Projects = () => {
             <div className="card project-card fade-in-section">
               <div className="card-body">
                 <div className="project-header">
+                  <h3 className="project-main-title">Interactive Website for iScientific Techsolutions Labs Private Limited</h3>
+                  <div className="project-links">
+                    <a
+                      href="https://istlenergy.com/"
+                      className="project-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fas fa-external-link-alt"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div className="project-tech-stack">
+                  <span className="tech-badge">ReactJS</span>
+                  <span className="tech-badge">Java</span>
+                  <span className="tech-badge">MySQL</span>
+                  <span className="tech-badge">Bootstrap</span>
+                </div>
+
+                <div className="project-description">
+                  <p>
+                    Designed and developed an interactive and responsive website for
+                    iScientific Techsolutions Labs Private Limited using ReactJS, Java, and
+                    MySQL. The platform provides an engaging and seamless experience across
+                    all devices.
+                  </p>
+                </div>
+
+                <div className="project-features">
+                  <h4 className="features-title">Key Features</h4>
+                  <ul className="features-list">
+                    <li>
+                      <i className="fas fa-check-circle feature-icon"></i>
+                      <span className="project-description">
+                        Fully responsive design optimized for all screen sizes
+                      </span>
+                    </li>
+                    <li>
+                      <i className="fas fa-check-circle feature-icon"></i>
+                      <span className="project-description">
+                        Built using ReactJS for dynamic and component-based UI
+                      </span>
+                    </li>
+                    <li>
+                      <i className="fas fa-check-circle feature-icon"></i>
+                      <span className="project-description">
+                        Java backend integration for secure and efficient data handling
+                      </span>
+                    </li>
+                    <li>
+                      <i className="fas fa-check-circle feature-icon"></i>
+                      <span className="project-description">
+                        MySQL database for reliable data management
+                      </span>
+                    </li>
+                    <li>
+                      <i className="fas fa-check-circle feature-icon"></i>
+                      <span className="project-description">
+                        Optimized for performance and SEO for improved online visibility
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="card project-card fade-in-section">
+              <div className="card-body">
+                <div className="project-header">
                   <h3 className="project-main-title">Centralized Control Monitoring System (CCMS)</h3>
                   {/* <div className="project-links">
                     <a href="https://github.com/VIJAYREDDYVENNA/CCMS_1PH_3PH" className="project-link" target="_blank" rel="noopener noreferrer">

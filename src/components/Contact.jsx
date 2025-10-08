@@ -113,7 +113,7 @@ const Contact = () => {
           }
         );
         
-        console.log('Email successfully sent!', result.text);
+        // console.log('Email successfully sent!', result.text);
         
         // Reset form and show success message
         setSubmitStatus('success');
@@ -179,7 +179,7 @@ const Contact = () => {
                         </div>
                         <div className="contact-details">
                           <h3 className="contact-item-title">EMAIL</h3>
-                          <a href="mailto:vbreddyvenna@gmail.com" className="contact-item-value text-decoration-none">vbreddyvenna@gmail.com</a>
+                          <a href="mailto:vbreddyvenna09@gmail.com" className="contact-item-value text-decoration-none">vbreddyvenna09@gmail.com</a>
                         </div>
                       </div>
                       

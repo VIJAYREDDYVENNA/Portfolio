@@ -35,7 +35,7 @@ export default function Home() {
               <a href="https://www.linkedin.com/in/vbreddyvenna/" className="social-icon" title="LinkedIn" target="_blank"  rel="noopener noreferrer">
                   <i class="bi bi-linkedin"></i>
               </a>
-              <a href="mailto:vbreddyvenna@gmail.com" className="social-icon" title="Email" target="_blank"  rel="noopener noreferrer">
+              <a href="mailto:vbreddyvenna09@gmail.com" className="social-icon" title="Email" target="_blank"  rel="noopener noreferrer">
                   <i class="bi bi-envelope-check"></i>
               </a>
             </div>
