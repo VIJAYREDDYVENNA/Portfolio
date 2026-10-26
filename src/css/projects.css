@@ -188,3 +188,8 @@
       font-size: 0.8rem;
     }
   }
+  .project-date {
+    color: #64ffda;
+    font-size: 0.9rem;
+    margin: -8px 0 15px;
+  }

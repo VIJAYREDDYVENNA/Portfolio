@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import '../css/profile.css';
-import profilePhoto from '../images/profile-photo.jpg'; // Make sure to add your photo to this path
+import profilePhoto from '../images/profile-pic.png';
 
 const Profile = () => {
   useEffect(() => {
@@ -39,7 +39,7 @@ const Profile = () => {
                       <a href="https://www.linkedin.com/in/vbreddyvenna/" target="_blank" rel="noopener noreferrer">
                         <i className="bi bi-linkedin"></i>
                       </a>
-                      <a href="mailto:vbreddyvenna09@gmail.com">
+                      <a href="mailto:vbreddyvenna@gmail.com">
                         <i className="bi bi-envelope-check"></i>
                       </a>
                     </div>
@@ -47,12 +47,12 @@ const Profile = () => {
                 </div>
 
                 <h1 className="profile-name">VIJAYA BHASKAR REDDY VENNA</h1>
-                <h3 className="profile-title">Software Engineer | Fullstack Developer</h3>
+                <h3 className="profile-title">Full Stack Developer</h3>
 
                 <div className="contact-details">
                   <div className="contact-item">
                     <i className="fas fa-envelope"></i>
-                    <span>vbreddyvenna09@gmail.com</span>
+                    <span>vbreddyvenna@gmail.com</span>
                   </div>
                   <div className="contact-item">
                     <i className="fas fa-phone"></i>
@@ -64,7 +64,7 @@ const Profile = () => {
                   </div>
                   <div className="contact-item">
                     <i className="fab fa-linkedin"></i>
-                    <span>www.linkedin.com/in/vijaya-bhaskar-reddy-venna-41025a234/</span>
+                    <span>linkedin.com/in/vbreddyvenna</span>
                   </div>
                   <div className="contact-item">
                     <i className="fas fa-map-marker-alt"></i>
@@ -73,7 +73,7 @@ const Profile = () => {
                 </div>
 
                 <a
-                  href="/Portfolio/vijaya_bhaskar_reddy_venna.pdf"
+                  href="/vijaya_bhaskar_reddy_venna.pdf"
                   download="vijaya_bhaskar_reddy_venna.pdf"
                   className="btn btn-download"
                 >
@@ -90,23 +90,22 @@ const Profile = () => {
                 <h2 className="section-title">About Me</h2>
                 <div className="about-content">
                   <p>
-                    Hello! I'm Vijaya Bhaskar Reddy Venna, a dedicated Software Engineer specializing in Full Stack Web Development.
-                    I currently work at IScientific Techsolutions Labs Pvt. Ltd., where I build robust and responsive web applications
-                    using modern technologies.
+                    Hello! I'm Vijaya Bhaskar Reddy Venna, a Full Stack Developer working at IScientific Tech Solutions Labs Pvt. Ltd.,
+                    Hyderabad, where I build responsive and scalable web applications with Java, Spring Boot, React.js and MySQL.
                   </p>
                   <p>
-                    I have hands-on experience in developing full-stack applications using Java, PHP, JavaScript, React.js, HTML, CSS,
-                    Bootstrap, and MySQL. My expertise spans both frontend and backend development, with strong skills in frameworks
-                    like Spring Boot, and working knowledge of REST APIs, JDBC, Hibernate, and MVC architecture.
+                    My expertise spans frontend and backend development: React.js and Bootstrap for modern user interfaces, and
+                    Spring Boot, Servlets, JSP and REST APIs for clean, MVC-based backend services, backed by MySQL, JDBC and Hibernate
+                    for data access.
                   </p>
                   <p>
-                    I've successfully contributed to multiple real-time control and monitoring systems, including the Live Motor Control
-                    System for Secunderabad Railway Station, the Sesola Energy website, and a Centralized Control Monitoring System (CCMS).
-                    My work also includes integrating MQTT protocol for real-time data communication and using tools like Git, GitHub, Eclipse,
-                    and VS Code for version control and development.
+                    Recently I have built the IstlGroup CRM &amp; Business Development Dashboard, a hierarchical Building Energy Monitoring
+                    System (BEMS) and a Centralized Control Monitoring System (CCMS) for street lighting, covering real-time monitoring,
+                    reporting and role-based workflows.
                   </p>
                   <p>
-                    I'm passionate about writing clean, maintainable code and continuously expanding my skillset through challenging projects and real-world implementations.
+                    I'm passionate about writing clean, maintainable code and continuously expanding my skillset through challenging
+                    projects and real-world implementations.
                   </p>
                 </div>
               </div>
@@ -120,55 +119,38 @@ const Profile = () => {
 
                   <div className="skill-item">
                     <div className="skill-header">
-                      <span className="skill-name">Core Java/Spring Boot</span>
-                      {/* <span className="skill-percentage">80%</span> */}
+                      <span className="skill-name">Programming Languages: <span className="skill-value">Java, JavaScript</span></span>
                     </div>
-                    {/* <div className="skill-bar">
-                      <div className="skill-progress" data-width="80%"></div>
-                    </div> */}
-                  </div>
-                  
-
-                  <div className="skill-item">
-                    <div className="skill-header">
-                      <span className="skill-name">HTML5/CSS/Bootstrap</span>
-                      {/* <span className="skill-percentage">95%</span> */}
-                    </div>
-                    {/* <div className="skill-bar">
-                      <div className="skill-progress" data-width="95%"></div>
-                    </div> */}
                   </div>
 
                   <div className="skill-item">
                     <div className="skill-header">
-                      <span className="skill-name">JavaScript/ReactJS</span>
-                      {/* <span className="skill-percentage">85%</span> */}
+                      <span className="skill-name">Frontend: <span className="skill-value">HTML, CSS, Bootstrap, ReactJS</span></span>
                     </div>
-                    {/* <div className="skill-bar">
-                      <div className="skill-progress" data-width="85%"></div>
-                    </div> */}
-                  </div>
-
-
-
-                  <div className="skill-item">
-                    <div className="skill-header">
-                      <span className="skill-name">MySQL/MongoDB</span>
-                      {/* <span className="skill-percentage">85%</span> */}
-                    </div>
-                    {/* <div className="skill-bar">
-                      <div className="skill-progress" data-width="85%"></div>
-                    </div> */}
                   </div>
 
                   <div className="skill-item">
                     <div className="skill-header">
-                      <span className="skill-name">PHP/REST APIs</span>
-                      {/* <span className="skill-percentage">75%</span> */}
+                      <span className="skill-name">Backend: <span className="skill-value">Servlets, JSP, Spring Boot, REST APIs</span></span>
                     </div>
-                    {/* <div className="skill-bar">
-                      <div className="skill-progress" data-width="75%"></div>
-                    </div> */}
+                  </div>
+
+                  <div className="skill-item">
+                    <div className="skill-header">
+                      <span className="skill-name">Database: <span className="skill-value">MySQL, JDBC, Hibernate</span></span>
+                    </div>
+                  </div>
+
+                  <div className="skill-item">
+                    <div className="skill-header">
+                      <span className="skill-name">Architecture: <span className="skill-value">MVC, RESTful Services, Microservices</span></span>
+                    </div>
+                  </div>
+
+                  <div className="skill-item">
+                    <div className="skill-header">
+                      <span className="skill-name">Tools &amp; Others: <span className="skill-value">Eclipse, VS Code, Git, GitHub</span></span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -182,8 +164,8 @@ const Profile = () => {
                   <div className="timeline-item">
                     <div className="timeline-dot"></div>
                     <div className="timeline-content">
-                      <h3 className="timeline-title">B.Tech in Electrical and Electronics Engineering</h3>
-                      <h4 className="timeline-subtitle">Audisankara College of Engineering and Technology, Gudur</h4>
+                      <h3 className="timeline-title">Bachelor of Technology in Electrical and Electronics Engineering</h3>
+                      <h4 className="timeline-subtitle">Audisankara College of Engineering and Technology, Gudur, India</h4>
                       <p className="timeline-date">2019 - 2023</p>
                       <p className="timeline-description">
                         Graduated with 7.86 CGPA. Focused on core electrical engineering subjects while developing
@@ -224,25 +206,25 @@ const Profile = () => {
                 <h2 className="section-title">Certifications</h2>
 
                 <div className="certifications-container">
-                  {/* <div className="certification-item">
-                      <div className="certification-icon">
-                        <i className="fas fa-certificate"></i>
-                      </div>
-                      <div className="certification-details">
-                        <h3 className="certification-title">Java, HTML, CSS, Bootstrap, JavaScript, MySQL, ReactJs</h3>
-                        <p className="certification-issuer">V CUBE Software Solutions</p>
-                        <p className="certification-date">Training Certificate</p>
-                      </div>
-                    </div> */}
+                  <div className="certification-item">
+                    <div className="certification-icon">
+                      <i className="fas fa-certificate"></i>
+                    </div>
+                    <div className="certification-details">
+                      <h3 className="certification-title">Java FullStack Developer Course</h3>
+                      <p className="certification-issuer">Vcube Software Solutions, Hyderabad</p>
+                      <p className="certification-date">09/2023 - 04/2024 | Completed with hands-on project experience</p>
+                    </div>
+                  </div>
 
                   <div className="certification-item">
                     <div className="certification-icon">
                       <i className="fas fa-certificate"></i>
                     </div>
                     <div className="certification-details">
-                      <h3 className="certification-title">Web Development</h3>
-                      <p className="certification-issuer">Hyse Software Solutions Private Limited</p>
-                      <p className="certification-date">Course Completion Certificate</p>
+                      <h3 className="certification-title">Web Development Course</h3>
+                      <p className="certification-issuer">Hyse Software Solutions Pvt. Ltd., Chennai</p>
+                      <p className="certification-date">03/2023 - 07/2023 | Certification in Comprehensive Web Development</p>
                     </div>
                   </div>
                 </div>

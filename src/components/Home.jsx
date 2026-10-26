@@ -24,19 +24,19 @@ export default function Home() {
           <div className="title-container">
             <div className="title-wrapper">
               <h2 className="title-text typing-effect">
-                Software Engineer | Fullstack Developer
+                Full Stack Developer
               </h2>
             </div>
             
             <div className="social-icons">
               <a href="https://github.com/VIJAYREDDYVENNA" className="social-icon" title="GitHub"  target="_blank"  rel="noopener noreferrer">
-                  <i class="bi bi-github"></i>
+                  <i className="bi bi-github"></i>
               </a>
               <a href="https://www.linkedin.com/in/vbreddyvenna/" className="social-icon" title="LinkedIn" target="_blank"  rel="noopener noreferrer">
-                  <i class="bi bi-linkedin"></i>
+                  <i className="bi bi-linkedin"></i>
               </a>
-              <a href="mailto:vbreddyvenna09@gmail.com" className="social-icon" title="Email" target="_blank"  rel="noopener noreferrer">
-                  <i class="bi bi-envelope-check"></i>
+              <a href="mailto:vbreddyvenna@gmail.com" className="social-icon" title="Email" target="_blank"  rel="noopener noreferrer">
+                  <i className="bi bi-envelope-check"></i>
               </a>
             </div>
           </div>

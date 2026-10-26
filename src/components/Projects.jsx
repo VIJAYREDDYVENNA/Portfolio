@@ -30,6 +30,105 @@ const Projects = () => {
             <div className="card project-card fade-in-section">
               <div className="card-body">
                 <div className="project-header">
+                  <h3 className="project-main-title">IstlGroup CRM &amp; Business Development Dashboard</h3>
+                </div>
+                <p className="project-date">12/2025 - 10/2026</p>
+
+                <div className="project-description">
+                  <p>
+                    A full-stack CRM application to manage leads, clients, sales, procurement, analytics and documents.
+                  </p>
+                </div>
+
+                <div className="project-features">
+                  <h4 className="features-title">Key Features</h4>
+                  <ul className="features-list">
+                    <li>
+                      <i className="fas fa-check-circle feature-icon"></i>
+                      <span className="project-description">Built a full-stack CRM to manage leads, clients, sales, procurement, analytics and documents using React, Spring Boot and MySQL</span>
+                    </li>
+                    <li>
+                      <i className="fas fa-check-circle feature-icon"></i>
+                      <span className="project-description">Responsive React UI components (tables, grids, modals, dashboards) with advanced filtering, role-based views and reusable layouts</span>
+                    </li>
+                    <li>
+                      <i className="fas fa-check-circle feature-icon"></i>
+                      <span className="project-description">RESTful APIs in Spring Boot for business workflows including proposals, quotations, invoices, purchase orders and follow-ups</span>
+                    </li>
+                    <li>
+                      <i className="fas fa-check-circle feature-icon"></i>
+                      <span className="project-description">Scalable architecture with activity tracking, audit logs, reporting and exportable Word/PDF documents</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="card project-card fade-in-section">
+              <div className="card-body">
+                <div className="project-header">
+                  <h3 className="project-main-title">Building Energy Monitoring System (BEMS)</h3>
+                </div>
+                <p className="project-date">03/2025 - 09/2025</p>
+
+                <div className="project-description">
+                  <p>
+                    A hierarchical Building Energy Monitoring System to track and analyze power consumption across residential and commercial buildings.
+                  </p>
+                </div>
+
+                <div className="project-features">
+                  <h4 className="features-title">Key Features</h4>
+                  <ul className="features-list">
+                    <li>
+                      <i className="fas fa-check-circle feature-icon"></i>
+                      <span className="project-description">Hierarchical monitoring of power consumption across residential and commercial buildings using Java (Spring Boot), React and MySQL</span>
+                    </li>
+                    <li>
+                      <i className="fas fa-check-circle feature-icon"></i>
+                      <span className="project-description">Backend services calculating peak usage hours, on-time/off-time metrics, total energy consumption and efficiency indicators to support performance optimization</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="card project-card fade-in-section">
+              <div className="card-body">
+                <div className="project-header">
+                  <h3 className="project-main-title">Centralized Control Monitoring System (CCMS)</h3>
+                </div>
+                <p className="project-date">12/2024 - 02/2025</p>
+
+                <div className="project-description">
+                  <p>
+                    A Java-based Centralized Control and Monitoring System for real-time monitoring and control of street lighting infrastructure.
+                  </p>
+                </div>
+
+                <div className="project-features">
+                  <h4 className="features-title">Key Features</h4>
+                  <ul className="features-list">
+                    <li>
+                      <i className="fas fa-check-circle feature-icon"></i>
+                      <span className="project-description">Backend services using Spring Boot and MySQL to manage device data, operational status and control commands</span>
+                    </li>
+                    <li>
+                      <i className="fas fa-check-circle feature-icon"></i>
+                      <span className="project-description">APIs to retrieve and process live device metrics, including installation counts per location and key operating parameters</span>
+                    </li>
+                    <li>
+                      <i className="fas fa-check-circle feature-icon"></i>
+                      <span className="project-description">Data processing modules calculating uptime/downtime hours, with support for historical analysis and date-based reporting</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="card project-card fade-in-section">
+              <div className="card-body">
+                <div className="project-header">
                   <h3 className="project-main-title">Interactive Website for iScientific Techsolutions Labs Private Limited</h3>
                   <div className="project-links">
                     <a
@@ -41,13 +140,6 @@ const Projects = () => {
                       <i className="fas fa-external-link-alt"></i>
                     </a>
                   </div>
-                </div>
-
-                <div className="project-tech-stack">
-                  <span className="tech-badge">ReactJS</span>
-                  <span className="tech-badge">Java</span>
-                  <span className="tech-badge">MySQL</span>
-                  <span className="tech-badge">Bootstrap</span>
                 </div>
 
                 <div className="project-description">
@@ -100,152 +192,12 @@ const Projects = () => {
             <div className="card project-card fade-in-section">
               <div className="card-body">
                 <div className="project-header">
-                  <h3 className="project-main-title">Centralized Control Monitoring System (CCMS)</h3>
-                  {/* <div className="project-links">
-                    <a href="https://github.com/VIJAYREDDYVENNA/CCMS_1PH_3PH" className="project-link" target="_blank" rel="noopener noreferrer">
-                      <i className="fab fa-github"></i>
-                    </a>
-                  </div> */}
-                </div>
-                <div className="project-tech-stack">
-                  <span className="tech-badge">HTML</span>
-                  <span className="tech-badge">CSS</span>
-                  <span className="tech-badge">Bootstrap</span>
-                  <span className="tech-badge">JavaScript</span>
-                  <span className="tech-badge">PHP</span>
-                  <span className="tech-badge">MySQL</span>
-                </div>
-                <div className="project-description">
-                  <p>
-                    Led the complete lifecycle of a complex project involving the design and implementation of the CCMS.
-                    The system provides monitoring and visualization of data, showcasing expertise in web development,
-                    database management, and user interface design.
-                  </p>
-                </div>
-                <div className="project-features">
-                  <h4 className="features-title">Key Features</h4>
-                  <ul className="features-list">
-                    <li>
-                      <i className="fas fa-check-circle feature-icon"></i>
-                      <span className='project-description'>Real-time data monitoring with interactive dashboards</span>
-                    </li>
-                    <li>
-                      <i className="fas fa-check-circle feature-icon"></i>
-                      <span className='project-description'>Centralized control system with user permission management</span>
-                    </li>
-                    <li>
-                      <i className="fas fa-check-circle feature-icon"></i>
-                      <span className='project-description'>Data visualization with responsive charts and graphs</span>
-                    </li>
-                    <li>
-                      <i className="fas fa-check-circle feature-icon"></i>
-                      <span className='project-description'>Full-stack implementation with frontend and backend integration</span>
-                    </li>
-                    <li>
-                      <i className="fas fa-check-circle feature-icon"></i>
-                      <span className='project-description'>Remote device control capabilities and status monitoring</span>
-                    </li>
-                    <li>
-                      <i className="fas fa-check-circle feature-icon"></i>
-                      <span className='project-description'>Abnormal condition alerts and notification system</span>
-                    </li>
-                    <li>
-                      <i className="fas fa-check-circle feature-icon"></i>
-                      <span className='project-description'>Comprehensive device data display with historical records</span>
-                    </li>
-                    <li>
-                      <i className="fas fa-check-circle feature-icon"></i>
-                      <span className='project-description'>User authentication and role-based access control</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* <div className="card project-card fade-in-section">
-              <div className="card-body">
-                <div className="project-header">
-                  <h3 className="project-main-title">Building Energy Monitoring System (BEMS)</h3>
-                  <div className="project-links">
-                    <a href="https://github.com/VIJAYREDDYVENNA/BEMS" className="project-link" target="_blank" rel="noopener noreferrer">
-                      <i className="fab fa-github"></i>
-                    </a>
-                  </div>
-                </div>
-                <div className="project-tech-stack">
-                  <span className="tech-badge">HTML</span>
-                  <span className="tech-badge">CSS</span>
-                  <span className="tech-badge">Bootstrap</span>
-                  <span className="tech-badge">MySQL</span>
-                  <span className="tech-badge">ReactJS</span>
-                  <span className="tech-badge">Java</span>
-                </div>
-                <div className="project-description">
-                  <p>
-                    Designed and implemented a Building Energy Monitoring System dashboard for real-time monitoring
-                    and control of electrical meters with a user-friendly interface to display consumed load per device
-                    and manage the status of switched devices.
-                  </p>
-                </div>
-                <div className="project-features">
-                  <h4 className="features-title">Key Features</h4>
-                  <ul className="features-list">
-                    <li>
-                      <i className="fas fa-check-circle feature-icon"></i>
-                      <span className='project-description'>Real-time monitoring of electrical parameters (kW, kVA, current, voltage)</span>
-                    </li>
-                    <li>
-                      <i className="fas fa-check-circle feature-icon"></i>
-                      <span className='project-description'>Energy consumption tracking with historical data visualization</span>
-                    </li>
-                    <li>
-                      <i className="fas fa-check-circle feature-icon"></i>
-                      <span className='project-description'>Device status management with remote control capabilities</span>
-                    </li>
-                    <li>
-                      <i className="fas fa-check-circle feature-icon"></i>
-                      <span className='project-description'>Interactive dashboard with responsive design</span>
-                    </li>
-                    <li>
-                      <i className="fas fa-check-circle feature-icon"></i>
-                      <span className='project-description'>Abnormal power consumption alerts and notifications</span>
-                    </li>
-                    <li>
-                      <i className="fas fa-check-circle feature-icon"></i>
-                      <span className='project-description'>Detailed device analytics with power quality monitoring</span>
-                    </li>
-                    <li>
-                      <i className="fas fa-check-circle feature-icon"></i>
-                      <span className='project-description'>Energy usage optimization recommendations</span>
-                    </li>
-                    <li>
-                      <i className="fas fa-check-circle feature-icon"></i>
-                      <span className='project-description'>Customizable reporting and data export capabilities</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div> */}
-
-
-
-            <div className="card project-card fade-in-section">
-              <div className="card-body">
-                <div className="project-header">
                   <h3 className="project-main-title">Interactive Website for Sesola Energy Company</h3>
                   <div className="project-links">
                     <a href="https://sesolaenergy.com/" className="project-link" target="_blank" rel="noopener noreferrer">
                       <i className="fas fa-external-link-alt"></i>
                     </a>
                   </div>
-                </div>
-                <div className="project-tech-stack">
-                  <span className="tech-badge">HTML</span>
-                  <span className="tech-badge">CSS</span>
-                  <span className="tech-badge">Bootstrap</span>
-                  <span className="tech-badge">JavaScript</span>
-                  <span className="tech-badge">PHP</span>
-                  <span className="tech-badge">MySQL</span>
                 </div>
                 <div className="project-description">
                   <p>
@@ -286,15 +238,6 @@ const Projects = () => {
                       <i className="fab fa-github"></i>
                     </a>
                   </div> */}
-                </div>
-                <div className="project-tech-stack">
-                  <span className="tech-badge">HTML</span>
-                  <span className="tech-badge">CSS</span>
-                  <span className="tech-badge">Bootstrap</span>
-                  <span className="tech-badge">JavaScript</span>
-                  <span className="tech-badge">MySQL</span>
-                  <span className="tech-badge">ReactJS</span>
-                  <span className="tech-badge">IoT</span>
                 </div>
                 <div className="project-description">
                   <p>
@@ -353,15 +296,6 @@ const Projects = () => {
                       <i className="fab fa-github"></i>
                     </a>
                   </div> */}
-                </div>
-                <div className="project-tech-stack">
-                  <span className="tech-badge">HTML</span>
-                  <span className="tech-badge">CSS</span>
-                  <span className="tech-badge">Bootstrap</span>
-                  <span className="tech-badge">JavaScript</span>
-                  <span className="tech-badge">MySQL</span>
-                  <span className="tech-badge">ReactJS</span>
-                  <span className="tech-badge">IoT</span>
                 </div>
                 <div className="project-description">
                   <p>

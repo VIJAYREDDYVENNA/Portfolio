@@ -25,39 +25,34 @@ const Experience = () => {
                   <div className="timeline-item">
                     <div className="timeline-dot"></div>
                     <div className="timeline-content">
-                      <h3 className="timeline-title">Software Engineer - Fullstack Developer</h3>
-                      <h4 className="timeline-subtitle">IScientific Techsolutions Labs Pvt. Ltd.</h4>
+                      <h3 className="timeline-title">Software Engineer</h3>
+                      <h4 className="timeline-subtitle">IScientific Tech Solutions Labs Pvt. Ltd., Hyderabad, India</h4>
                       <p className="timeline-date">May 2024 - Present</p>
                       <p className="timeline-description">
-                        Working as a Software Engineer with a focus on Full Stack Development, continuously learning and applying new skills in everyday professional work.
+                        Working as a Software Engineer focused on full-stack development with Java, Spring Boot and React.js.
                       </p>
 
                       <div className="project-description">
-                     <ul className="project-highlights">
+                      <ul className="project-highlights">
                         <li>
                           <i className="fas fa-check-circle highlight-icon"></i>
-                          <span>Hands-on experience in full-stack development using Java, PHP, JavaScript, React.js, HTML,CSS, and Bootstrap.</span>
-                        </li>
-                        <li>
-                          <i className="fas fa-check-circle highlight-icon"></i>
-                          <span>Built responsive web interfaces and dynamic UIs using React.js and Bootstrap for modern web applications.</span>
+                          <span>Proficient in developing responsive and interactive user interfaces using React.js and Bootstrap, delivering modern and intuitive web application experiences.</span>
                         </li>
                         <li>
                           <i className="fas fa-check-circle highlight-icon"></i>
-                          <span>Developed backend services using Java (Servlets, JSP, Spring Boot, REST APIs) and PHP,following MVC architecture</span>
+                          <span>Built full-stack applications leveraging Java, JavaScript, HTML, and CSS, with a strong emphasis on performance and scalability.</span>
                         </li>
-
-                           <li>
+                        <li>
                           <i className="fas fa-check-circle highlight-icon"></i>
-                          <span>Worked with MySQL, JDBC, and Hibernate for efficient data storage and retrieval.</span>
+                          <span>Experienced in creating backend systems using Spring Boot, Servlets, JSP, and REST APIs, following clean MVC architecture design.</span>
                         </li>
-                           <li>
+                        <li>
                           <i className="fas fa-check-circle highlight-icon"></i>
-                          <span>Integrated real-time data communication using the MQTT protocol for control and monitoring applications.</span>
+                          <span>Efficiently handled data operations using MySQL, JDBC, and Hibernate, ensuring seamless data access and storage.</span>
                         </li>
-                           <li>
+                        <li>
                           <i className="fas fa-check-circle highlight-icon"></i>
-                          <span>Proficient with tools like Eclipse, VS Code, Git, and GitHub for development and version control.</span>
+                          <span>Well-versed in version control and development environments including Git, GitHub, Eclipse, and Visual Studio Code.</span>
                         </li>
                       </ul>
                     </div>
